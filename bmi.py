@@ -1,4 +1,5 @@
 import streamlit as st
+st.title('第六組 刷牙卡到陰')
 w = st.number_input('請輸入體重(KG)？')
 h = st.number_input('請輸入身高(M)？')
 cofirm_input = st.button('輸入確認')
